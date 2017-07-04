@@ -48,6 +48,7 @@ public class SensorActivity extends AppCompatActivity {
         sensorList = manager.getSensorList(Sensor.TYPE_PROXIMITY);
         sensorList = manager.getSensorList(Sensor.TYPE_ORIENTATION);
         sensorList = manager.getSensorList(Sensor.TYPE_ACCELEROMETER);
+        sensorList = manager.getSensorList(Sensor.TYPE_MAGNETIC_FIELD);
 
 
         if (sensorList.size() != 0){
