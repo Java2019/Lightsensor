@@ -47,6 +47,7 @@ public class SensorActivity extends AppCompatActivity {
         sensorList = manager.getSensorList(Sensor.TYPE_LIGHT);
         sensorList = manager.getSensorList(Sensor.TYPE_PROXIMITY);
         sensorList = manager.getSensorList(Sensor.TYPE_ORIENTATION);
+        sensorList = manager.getSensorList(Sensor.TYPE_ACCELEROMETER);
 
 
         if (sensorList.size() != 0){
