@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Light sensor</string>
+    <string name="error_msg">This sensor is not available on device</string>
+    <string name="name0">Light level:</string>
+</resources>
