@@ -46,6 +46,8 @@ public class SensorActivity extends AppCompatActivity {
         manager = (SensorManager)getSystemService(SENSOR_SERVICE);
         sensorList = manager.getSensorList(Sensor.TYPE_LIGHT);
         sensorList = manager.getSensorList(Sensor.TYPE_PROXIMITY);
+        sensorList = manager.getSensorList(Sensor.TYPE_ORIENTATION);
+
 
         if (sensorList.size() != 0){
             manager.registerListener(listener, sensorList.get(0), SensorManager.SENSOR_DELAY_NORMAL);
